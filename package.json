@@ -9,7 +9,7 @@
     "build": "npm install && npm install --prefix CookHouse-app && npm run build --prefix CookHouse-app"
   },
   "keywords": [],
-  "author": "Rahul Murali",
+  "author": "Kushagra Yadav",
   "license": "Unilicense",
   "description": "A Social App for Cooks and Culinary Enthusiasts",
   "dependencies": {
