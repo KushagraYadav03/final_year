@@ -1,0 +1,29 @@
+{
+  "name": "cookhouse",
+  "version": "1.0.0",
+  "main": "backend/server.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "start": "NODE_ENV=production node backend/server.js",
+    "build": "npm install && npm install --prefix CookHouse-app && npm run build --prefix CookHouse-app"
+  },
+  "keywords": [],
+  "author": "Rahul Murali",
+  "license": "Unilicense",
+  "description": "A Social App for Cooks and Culinary Enthusiasts",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.6.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.18.0",
+    "mongoose": "^8.12.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
